@@ -1,0 +1,46 @@
+.form__input-wrapper {
+  display: flex;
+  align-content: center;
+  height: 45px;
+  margin-bottom: 40px;
+}
+
+.form__name {
+  width: 220px;
+  margin: auto 0;
+  font-size: 21px;
+  line-height: 19px;
+}
+
+input {
+  width: 335px;
+  height: 30px;
+  margin-right: 18px;
+}
+
+.input-error {
+  border: 1px solid #FF0000;
+  
+}
+
+.form__description {
+  font-size: 12px;
+  line-height: 20px;
+  color: #999999;
+  width: 350px;
+  margin: auto;
+}
+
+@media (max-width: 1000px) {
+
+  .form__input-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 75px;
+  }
+
+  .form__description {
+    height: 70px;
+  }
+
+}

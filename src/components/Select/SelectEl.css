@@ -1,0 +1,29 @@
+.select-option__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 335px;
+  height: 32px;
+  border: 1px solid #999999;
+}
+
+.select-option__wrapper:hover {
+  cursor: pointer;
+  background-color: #999999;
+}
+
+.select-option__item {
+  display: flex;
+  justify-content: space-between;
+  width: 335px;
+  height: 32px;
+  margin-right: 18px;
+  border: 1px solid #999999;
+  border-top: none;
+  position: relative;
+  background-color: #fff;
+}
+
+.select-option__item:hover {
+  cursor: pointer;
+  background-color: #999999;
+}

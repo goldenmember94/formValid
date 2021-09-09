@@ -1,0 +1,50 @@
+
+.error {
+  color: #FF0000;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.chekbox {
+  width: auto;
+  margin-top: 9px;
+}
+
+.checkbox-name {
+  margin: auto 0;
+}
+
+.form__button-wrapper {
+  margin-left: 220px;
+}
+
+.form__button {
+  background: #71C838;
+  box-shadow: 0px 1px 0px #539D22;
+  width: 119px;
+  height: 40px;
+  border: none;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.form__button:hover {
+  cursor: pointer;
+}
+
+.form__button-description {
+  font-size: 12px;
+  line-height: 20px;
+  color: #999999;
+}
+
+.display-none {
+  display: none;
+}
