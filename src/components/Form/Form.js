@@ -2,7 +2,6 @@ import './Form.css'
 import React, {useState, useEffect} from 'react';
 
 import {regEmail, linkCityListData} from '../../variables'
-import {} from '../../helpers'
 import SelectEl from '../Select/SelectEl';
 import LineEl from '../LineEl/LineEl';
 import InputEl from '../InputEl/InputEl';
